@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>SWトラベル</title>
+  <meta name="description" content="旅行会社のサイト">
+  <meta name="viewport" cintent="width=device-width, initial scale=1.0">
+  <link rel="stylesheet" href="style2.css" meidia="all">
+ 
+</head>
+
+<body>
+	
+	<header>
+	<div class="header_logo">
+		<h1>
+		<a href="kadai.html">SWトラベル</a>	
+		</h1>	
+	</div>
+
+	<div class="header_reserve">
+	<a href="">マイページ<br>
+	予約の確認・変更
+	</a>
+	</div>
+
+	<div class="header_search">
+	<a href="">サイト内<br>
+	検索 
+	</a>
+	</div>
+	</header>
+
+	<nav>
+	<ul>
+ 		<li class="travel2"><a href="online.html">オンライン旅行</a></li>
+ 		<li class="travel1"><a href="">国内旅行</a></li>
+ 		<li class="travel3"><a href="">海外旅行</a></li>
+ 		<li class="travel4"><a href="">旅行ガイド</a></li>
+ 	</ul>	
+	</nav>
+
+	<main>
+	<div class="main-visual">
+	<h2>たまには旅に出よう<br>
+	人生に癒しを。<br>
+	</h2>
+
+   	</div>
+
+		<section>
+		<div class="section_header">
+		<h2>
+		オンライン旅行
+		</h2>
+		</div>
+
+		<h3 class="online_header">
+		おすすめのオンライン旅行先
+		</h3>
+
+		<table class="online_table">
+			<tr>
+			<th><img class="anime_test" src="sydney_main.jpg" alt=""></th>
+			<td class="detail"><b>≪まるまるっとonlineシドニー観光≫</b><br>
+				人気のオペラハウスやハーバーブリッジ、<br>真っ白な砂浜にコバルトブルーが魅力的なボンダイビーチを、<br>まるまるっとオンラインで観光できるお得なプラン！
+			</td>
+			<td class="price">1,500円</td>
+			<td class="moredetail"> <button onclick="location.href='online_sydney.html'">詳細</button></td>
+			</tr>
+
+			<tr>
+			<th><img class="anime_test" src="uluru_main.jpg" alt=""></th>
+			<td class="detail"><b>≪優雅なひと時をonlineで、エアーズロック観光≫</b><br>
+				世界遺産エアーズロックのサンセット、<br>そしてちょっとだけラクダも堪能できる贅沢なプラン。<br>
+				紅茶、又はワインを片手に夕日を見ながら、優雅なひと時を。
+			</td>
+			<td class="price">2,200円~</td>
+			<td class="moredetail"> <button onclick="location.href='online_uluru.html'">詳細</button></td>
+			</tr>
+		</table>
+		<br>
+		<div class="more_button">
+		<button onclick="location.href='online.html'">もっと見る</button>
+		</div>
+		<br>
+		<br>
+
+		</section>
+
+		<section>
+
+		<div class="section_header">
+		<h2>
+		国内旅行
+		</h2>
+		</div>
+
+		<div class="kadai_header1">
+
+		<h3 class="domestic_header">
+		ホテル・宿
+		</h3>
+		<p>
+		宿泊地：<input class="stay_search" type="search" name="search" placeholder="目的地、ホテル名、キーワードを入力してください">
+		</p>
+		<p>
+		<label>チェックイン(年/月/日)：<input type="date"></label>
+		</p>
+		<p>
+		<label>チェックアウト(年/月/日)：<input type="date"></label>
+		</p>
+		<p>
+		部屋数：
+		<select class="room_select" name="select">
+			<option value="1room">1</option>
+  			<option value="2room">2</option>
+  			<option value="3room">3</option>
+  			<option value="4room">4</option>
+  			<option value="5room">5</option>
+  			<option value="6room">6</option>
+		</select>
+		</p>
+		<p>
+		人数：大人
+		<select class="adult_select" name="select">
+			<option value="1adult">1</option>
+  			<option value="2adult">2</option>
+  			<option value="3adult">3</option>
+  			<option value="4adult">4</option>
+  			<option value="5adult">5</option>
+		</select>
+		子ども
+		<select class="child_select" name="select">
+			<option value="1child">1</option>
+  			<option value="2child">2</option>
+  			<option value="3child">3</option>
+  			<option value="4child">4</option>
+  			<option value="5child">5</option>
+		</select>
+		</p>
+		<p>
+		<input class="search_submit" type="submit" name="submit" value="検索する">
+		</p>
+
+		</div>
+
+
+		<div class="kadai_header2">
+
+		<h3 class="domestic_header">
+		ツアー
+		</h3>
+		<p>
+		出発地：
+		<select class="departure_select" name="select">
+			<option value="1">北海道</option>
+  			<option value="2">東北</option>
+  			<option value="3">甲信越</option>
+  			<option value="4">関東</option>
+  			<option value="5">東海</option>
+  			<option value="6">北陸</option>
+  			<option value="7">関西</option>
+  			<option value="8">山陰・山陽</option>
+  			<option value="9">四国</option>
+  			<option value="10">九州</option>
+  			<option value="11">沖縄</option>
+		</select>
+		</p>
+		<p>
+		目的地：
+		<select class="arrival_select" name="select">
+			<option value="1">北海道</option>
+  			<option value="2">東北</option>
+  			<option value="3">甲信越</option>
+  			<option value="4">関東</option>
+  			<option value="5">東海</option>
+  			<option value="6">北陸</option>
+  			<option value="7">関西</option>
+  			<option value="8">山陰・山陽</option>
+  			<option value="9">四国</option>
+  			<option value="10">九州</option>
+  			<option value="11">沖縄</option>
+		</select>
+		</p>
+		<p>
+		<label>出発日(年/月/日)：<input type="date"></label>
+		</p>
+		滞在日数：
+		<select class="stay_select" name="select">
+  			<option value="2stay">2日間</option>
+  			<option value="3stay">3日間</option>
+  			<option value="4stay">4日間</option>
+  			<option value="5stay">5日間</option>
+  			<option value="6stay">6日間</option>
+  			<option value="7stay">7日間</option>
+		</select>
+		<p>
+		部屋数：
+		<select class="room_select" name="select">
+			<option value="1room">1</option>
+  			<option value="2room">2</option>
+  			<option value="3room">3</option>
+  			<option value="4room">4</option>
+  			<option value="5room">5</option>
+  			<option value="6room">6</option>
+		</select>
+		</p>
+		<p>
+		人数：大人
+		<select class="adult_select" name="select">
+			<option value="1adult">1</option>
+  			<option value="2adult">2</option>
+  			<option value="3adult">3</option>
+  			<option value="4adult">4</option>
+  			<option value="5adult">5</option>
+		</select>
+		子ども
+		<select class="child_select" name="select">
+			<option value="1child">1</option>
+  			<option value="2child">2</option>
+  			<option value="3child">3</option>
+  			<option value="4child">4</option>
+  			<option value="5child">5</option>
+		</select>
+		</p>
+		<p>
+		キーワード：<input class="stay_search" type="search" name="search" placeholder="ホテル名、観光地、キーワードを入力してください">
+		</p>
+		<p>
+		<input class="search_submit" type="submit" name="submit" value="検索する">
+		</p>
+		
+		</div>
+
+		<div class="kadai_header3">
+		<button onclick="location.href='html'">
+		<p>国内旅行をもっと探す<br>
+		バスツアー、国内航空券、国内レンタカーもこちらから探せます</p>
+		</button>
+		</div>
+
+		<br>
+		<br>
+		</section>
+
+		<section>
+		<div class="section_header">
+		<h2>
+		特集
+		</h2>
+		</div>
+
+		<div class="special_header1">
+		<h3 class="special_header">
+		いま話題のオンライン旅行とは
+		</h3>
+		<img src="online_pic.jpg" alt="">
+		<p>
+			
+		</p>
+		</div>
+
+		<div class="special_header2">
+		<h3 class="special_header">
+		ハワイ特集
+		</h3>
+		<img src="hawaii_pic.jpg" alt="">
+		<p>
+			
+		</p>
+		</div>
+
+		<div class="special_header3">
+		<h3 class="special_header">
+		GO TOトラベルの最新状況
+		</h3>
+		<img src="goto_pic.jpg" alt="">
+		<p>
+			
+		</p>
+		<br>
+		</div>
+
+		<div class="special_header4">
+		<button onclick="location.href='html'">
+		もっと見る > 
+		</button>
+		</div>
+
+		</section>
+
+
+		<section>
+		<div class="section_header">
+		<h2>
+		お知らせ
+		</h2>
+		</div>
+
+		<table class="information_table">
+			<tr>
+				<td>2021.02.01</td>
+				<td>一部サービスの休止に関して</td>
+			</tr>
+			<tr>
+				<td>2021.01.25</td>
+				<td>このホームページに関して</td>
+			</tr>
+		</table>
+
+		<br>
+		<br>
+		</section>
+
+	
+	</main>
+
+
+	<footer>
+	<div class="footer_logo">
+		<h2>
+		SWトラベル
+		</h2>
+	</div>	
+
+	<div class="footer_question">
+		<h3 class="footer_question1"><a href="form.html">
+		お問い合わせ</a>
+		</h3>
+		<h3 class="footer_question2"><a href="question.html">
+		よくある質問</a>
+		</h3>
+	</div>
+
+	<div class="footer_SNS">
+		<h3>公式SNS</h3>
+		<h3>
+		<img class="sns" src="facebook.png" alt="FaceBook"> <img class="sns" src="twitter.png" alt="Twitter"> <img class="sns" src="instagram.png" alt="Instagram">
+		</h3>
+	</div>
+
+	<div class="footer_content">
+		<ul>
+			<li class="footer"><a href="company.html">会社情報</a></li>
+			<li class="footer"><a href="news.html">ニュースリリース</a></li>
+			<li class="footer"><a href="">旅行業約款</a></li>
+			<li class="footer"><a href="">条件書</a></li>
+			<li class="footer"><a href="">個人情報保護方針</a></li>
+		</ul>
+	
+	</div>
+	<div class="copyright">
+	Copyright.
+	</div>
+	</footer>
+
+</body>
+</html>
