@@ -41,8 +41,10 @@
 	</nav>
 
 	<main>
-	<div class="">
-	<h2></h2>
+	<div class="main-visual">
+	<h2>たまには旅に出よう<br>
+	人生に癒しを。<br>
+	</h2>
 
    	</div>
 
@@ -54,31 +56,7 @@
 		</div>
 
 		<h3 class="online_header">
-		オンライン旅行を探す
-		</h3>
-
-		<div class="online_header1">
-		キーワードで探す
-		<input class="online_search" type="search" name="search" placeholder="キーワードを入力してください">
-		</div>
-
-		<div class="online_header2">
-		エリアで探す
-		<select class="room_select" name="select">
-			<option value="asia">アジア</option>
-  			<option value="usa">アメリカ・カナダ</option>
-  			<option value="hawaii">ハワイ・グアム・サイパン</option>
-  			<option value="southusa">中南米</option>
-  			<option value="oceania">オセアニア・南太平洋</option>
-  			<option value="europe">ヨーロッパ</option>
-  			<option value="africa">中近東・アフリカ</option>
-		</select>
-		</div>
-
-		<input class="onlinesearch_submit" type="submit" name="submit" value="検索する">
-
-		<h3 class="online_header">
-		すべてのオンライン旅行先
+		おすすめのオンライン旅行先
 		</h3>
 
 		<table class="online_table">
@@ -93,79 +71,177 @@
 
 			<tr>
 			<th><img class="anime_test" src="uluru_main.jpg" alt=""></th>
-			<td class="detail">"<b>≪優雅なひと時をonlineで、エアーズロック観光≫</b><br>
+			<td class="detail"><b>≪優雅なひと時をonlineで、エアーズロック観光≫</b><br>
 				世界遺産エアーズロックのサンセット、<br>そしてちょっとだけラクダも堪能できる贅沢なプラン。<br>
 				紅茶、又はワインを片手に夕日を見ながら、優雅なひと時を。
 			</td>
 			<td class="price">2,200円~</td>
 			<td class="moredetail"> <button onclick="location.href='online_uluru.html'">詳細</button></td>
 			</tr>
-
-			<tr>
-			<th><img class="anime_test" src="dubai_main.jpg" alt=""></th>
-			<td class="detail"><b>≪ドバイ、アブダビ観光≫</b><br>
-				<br>
-				現在、ツアーの準備をしています。しばらくお待ちください<br>
-			</td>
-			<td class="price">0円</td>
-			<td class="moredetail"> <button onclick="">準備中</button></td>
-			</tr>
-
-			<tr>
-			<th><img class="anime_test" src="dubaisafari_main.jpg" alt=""></th>
-			<td class="detail"><b>≪ドバイの砂漠観光≫</b><br>
-				<br>
-				現在、ツアーの準備をしています。しばらくお待ちください<br>
-			</td>
-			<td class="price">0円</td>
-			<td class="moredetail"> <button onclick="">準備中</button></td>
-			</tr>
-
-			<tr>
-			<th><img class="anime_test" src="ny_main.jpg" alt=""></th>
-			<td class="detail"><b>≪ニューヨーク観光≫</b><br>
-				<br>
-				現在、ツアーの準備をしています。しばらくお待ちください<br>
-			</td>
-			<td class="price">0円</td>
-			<td class="moredetail"> <button onclick="">準備中</button></td>
-			</tr>
-
-			<tr>
-			<th><img class="anime_test" src="la_main.jpg" alt=""></th>
-			<td class="detail"><b>≪ロサンゼルス観光≫</b><br>
-				<br>
-				現在、ツアーの準備をしています。しばらくお待ちください<br>
-			</td>
-			<td class="price">0円</td>
-			<td class="moredetail"> <button onclick="">準備中</button></td>
-			</tr>
-
-			<tr>
-			<th><img class="anime_test" src="ca_main.jpg" alt=""></th>
-			<td class="detail"><b>≪バンクーバー観光≫</b><br>
-				<br>
-				現在、ツアーの準備をしています。しばらくお待ちください<br>
-			</td>
-			<td class="price">0円</td>
-			<td class="moredetail"> <button onclick="">準備中</button></td>
-			</tr>
-
-			<tr>
-			<th><img class="anime_test" src="bali_main.jpg" alt=""></th>
-			<td class="detail"><b>≪バリ観光≫</b><br>
-				<br>
-				現在、ツアーの準備をしています。しばらくお待ちください<br>
-			</td>
-			<td class="price">0円</td>
-			<td class="moredetail"> <button onclick="">準備中</button></td>
-			</tr>
-
-		</table>		
-
+		</table>
+		<br>
+		<div class="more_button">
+		<button onclick="location.href='online.html'">もっと見る</button>
+		</div>
 		<br>
 		<br>
 
+		</section>
+
+		<section>
+
+		<div class="section_header">
+		<h2>
+		国内旅行
+		</h2>
+		</div>
+
+		<div class="kadai_header1">
+
+		<h3 class="domestic_header">
+		ホテル・宿
+		</h3>
+		<p>
+		宿泊地：<input class="stay_search" type="search" name="search" placeholder="目的地、ホテル名、キーワードを入力してください">
+		</p>
+		<p>
+		<label>チェックイン(年/月/日)：<input type="date"></label>
+		</p>
+		<p>
+		<label>チェックアウト(年/月/日)：<input type="date"></label>
+		</p>
+		<p>
+		部屋数：
+		<select class="room_select" name="select">
+			<option value="1room">1</option>
+  			<option value="2room">2</option>
+  			<option value="3room">3</option>
+  			<option value="4room">4</option>
+  			<option value="5room">5</option>
+  			<option value="6room">6</option>
+		</select>
+		</p>
+		<p>
+		人数：大人
+		<select class="adult_select" name="select">
+			<option value="1adult">1</option>
+  			<option value="2adult">2</option>
+  			<option value="3adult">3</option>
+  			<option value="4adult">4</option>
+  			<option value="5adult">5</option>
+		</select>
+		子ども
+		<select class="child_select" name="select">
+			<option value="1child">1</option>
+  			<option value="2child">2</option>
+  			<option value="3child">3</option>
+  			<option value="4child">4</option>
+  			<option value="5child">5</option>
+		</select>
+		</p>
+		<p>
+		<input class="search_submit" type="submit" name="submit" value="検索する">
+		</p>
+
+		</div>
+
+
+		<div class="kadai_header2">
+
+		<h3 class="domestic_header">
+		ツアー
+		</h3>
+		<p>
+		出発地：
+		<select class="departure_select" name="select">
+			<option value="1">北海道</option>
+  			<option value="2">東北</option>
+  			<option value="3">甲信越</option>
+  			<option value="4">関東</option>
+  			<option value="5">東海</option>
+  			<option value="6">北陸</option>
+  			<option value="7">関西</option>
+  			<option value="8">山陰・山陽</option>
+  			<option value="9">四国</option>
+  			<option value="10">九州</option>
+  			<option value="11">沖縄</option>
+		</select>
+		</p>
+		<p>
+		目的地：
+		<select class="arrival_select" name="select">
+			<option value="1">北海道</option>
+  			<option value="2">東北</option>
+  			<option value="3">甲信越</option>
+  			<option value="4">関東</option>
+  			<option value="5">東海</option>
+  			<option value="6">北陸</option>
+  			<option value="7">関西</option>
+  			<option value="8">山陰・山陽</option>
+  			<option value="9">四国</option>
+  			<option value="10">九州</option>
+  			<option value="11">沖縄</option>
+		</select>
+		</p>
+		<p>
+		<label>出発日(年/月/日)：<input type="date"></label>
+		</p>
+		滞在日数：
+		<select class="stay_select" name="select">
+  			<option value="2stay">2日間</option>
+  			<option value="3stay">3日間</option>
+  			<option value="4stay">4日間</option>
+  			<option value="5stay">5日間</option>
+  			<option value="6stay">6日間</option>
+  			<option value="7stay">7日間</option>
+		</select>
+		<p>
+		部屋数：
+		<select class="room_select" name="select">
+			<option value="1room">1</option>
+  			<option value="2room">2</option>
+  			<option value="3room">3</option>
+  			<option value="4room">4</option>
+  			<option value="5room">5</option>
+  			<option value="6room">6</option>
+		</select>
+		</p>
+		<p>
+		人数：大人
+		<select class="adult_select" name="select">
+			<option value="1adult">1</option>
+  			<option value="2adult">2</option>
+  			<option value="3adult">3</option>
+  			<option value="4adult">4</option>
+  			<option value="5adult">5</option>
+		</select>
+		子ども
+		<select class="child_select" name="select">
+			<option value="1child">1</option>
+  			<option value="2child">2</option>
+  			<option value="3child">3</option>
+  			<option value="4child">4</option>
+  			<option value="5child">5</option>
+		</select>
+		</p>
+		<p>
+		キーワード：<input class="stay_search" type="search" name="search" placeholder="ホテル名、観光地、キーワードを入力してください">
+		</p>
+		<p>
+		<input class="search_submit" type="submit" name="submit" value="検索する">
+		</p>
+		
+		</div>
+
+		<div class="kadai_header3">
+		<button onclick="location.href='html'">
+		<p>国内旅行をもっと探す<br>
+		バスツアー、国内航空券、国内レンタカーもこちらから探せます</p>
+		</button>
+		</div>
+
+		<br>
+		<br>
 		</section>
 
 		<section>
@@ -237,8 +313,6 @@
 		<br>
 		</section>
 
-
-		
 	
 	</main>
 
